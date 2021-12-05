@@ -1,0 +1,8 @@
+[2021-11-11 16:54:48,169] INFO [ProducerStateManager partition=cities-0] Wrote producer snapshot at offset 123 with 0 producer ids in 9 ms. (kafka.log.ProducerStateManager)
+[2021-11-11 16:54:48,173] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Rolled new log segment at offset 123 in 29 ms. (kafka.log.Log)
+[2021-11-11 16:54:48,174] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Deleting segment LogSegment(baseOffset=119, size=1016, lastModifiedTime=1636656803509, largestRecordTimestamp=Some(1636656803475)) due to retention time 3600000ms breach based on the largest record timestamp in the segment (kafka.log.Log)
+[2021-11-11 16:54:48,179] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Incremented log start offset to 123 due to segment deletion (kafka.log.Log)
+[2021-11-11 16:55:48,176] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Deleting segment files LogSegment(baseOffset=119, size=1016, lastModifiedTime=1636656803509, largestRecordTimestamp=Some(1636656803475)) (kafka.log.Log$)
+[2021-11-11 16:55:48,180] INFO Deleted log /tmp/kafka-logs/cities-0/00000000000000000119.log.deleted. (kafka.log.LogSegment)
+[2021-11-11 16:55:48,187] INFO Deleted offset index /tmp/kafka-logs/cities-0/00000000000000000119.index.deleted. (kafka.log.LogSegment)
+[2021-11-11 16:55:48,187] INFO Deleted time index /tmp/kafka-logs/cities-0/00000000000000000119.timeindex.deleted. (kafka.log.LogSegment)

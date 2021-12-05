@@ -1,0 +1,6 @@
+[2021-11-10 08:33:31,641] INFO [GroupMetadataManager brokerId=0] Group console-consumer-75807 transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
+[2021-11-10 08:33:31,644] INFO [GroupMetadataManager brokerId=0] Group console-consumer-92719 transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
+[2021-11-10 08:34:00,442] INFO [ProducerStateManager partition=cities-0] Wrote producer snapshot at offset 97 with 0 producer ids in 14 ms. (kafka.log.ProducerStateManager)
+[2021-11-10 08:34:00,443] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Rolled new log segment at offset 97 in 19 ms. (kafka.log.Log)
+[2021-11-10 08:34:00,444] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Deleting segment LogSegment(baseOffset=87, size=1480, lastModifiedTime=1636519848827, largestRecordTimestamp=Some(1636519848797)) due to retention time 3600000ms breach based on the largest record timestamp in the segment (kafka.log.Log)
+[2021-11-10 08:34:00,451] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Incremented log start offset to 97 due to segment deletion (kafka.log.Log)

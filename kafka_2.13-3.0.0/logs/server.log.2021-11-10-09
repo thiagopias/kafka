@@ -1,0 +1,5 @@
+[2021-11-10 09:02:09,126] INFO [Log partition=cities-0, dir=/tmp/kafka-logs] Deleting segment files LogSegment(baseOffset=87, size=1480, lastModifiedTime=1636519848827, largestRecordTimestamp=Some(1636519848797)) (kafka.log.Log$)
+[2021-11-10 09:02:09,128] INFO Deleted log /tmp/kafka-logs/cities-0/00000000000000000087.log.deleted. (kafka.log.LogSegment)
+[2021-11-10 09:02:09,128] INFO Deleted offset index /tmp/kafka-logs/cities-0/00000000000000000087.index.deleted. (kafka.log.LogSegment)
+[2021-11-10 09:02:09,129] INFO Deleted time index /tmp/kafka-logs/cities-0/00000000000000000087.timeindex.deleted. (kafka.log.LogSegment)
+[2021-11-10 09:02:09,129] INFO Deleted producer state snapshot /tmp/kafka-logs/cities-0/00000000000000000087.snapshot.deleted (kafka.log.SnapshotFile)
